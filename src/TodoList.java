@@ -5,10 +5,10 @@ public class TodoList {
     ArrayList<String> list = new ArrayList<>();
 	
     public void addItem(String description, int priority) {
-    	ad
     	
     	
-        //
+    	
+        // TODO
     }
     
     /*

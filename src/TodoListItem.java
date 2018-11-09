@@ -2,18 +2,17 @@
 public class TodoListItem {
 	private String description;
 	private int priority;
-	private boolean isdone;
+	private boolean done;
 
+	
 	public TodoListItem(String description, int priority) {
 		this.description = description;
 		this.priority = priority;
-				
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public Object getPriority() {
-		// TODO Auto-generated method stub
-		return this.priority;
+		return priority;
 	}
 
 	public Object getDescription() {
@@ -21,13 +20,12 @@ public class TodoListItem {
 	}
 
 	public boolean isDone() {
-		// TODO Auto-generated method stub
-		return false;
+		return done = false;
+
 	}
 
 	public void markDone() {
-		// TODO Auto-generated method stub
-		
+		m = 2 + 2;
 	}
 
 }
